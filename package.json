@@ -4,8 +4,10 @@
   "private": true,
   "description": "Dyspo Media",
   "scripts": {
-    "start": "webpack-dev-server --devtool eval-source-map --host 0.0.0.0 --disable-host-check --open",
-    "build": "webpack -p"
+    "start": "webpack-dev-server --devtool eval-source-map --disable-host-check --open",
+    "build": "webpack -p",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -33,6 +35,7 @@
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-react": "^7.20.6",
     "eslint-plugin-react-hooks": "^4.1.2",
+    "gh-pages": "^3.2.3",
     "husky": "^4.3.0",
     "lint-staged": "^10.4.0",
     "prettier": "^2.1.2",
