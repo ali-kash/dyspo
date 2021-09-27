@@ -1,1 +1,1 @@
-Sitemap: https://spa-github-pages.rafgraph.dev/sitemap.txt
+Sitemap: https://ali-kash.github.io/dyspo/sitemap.txt

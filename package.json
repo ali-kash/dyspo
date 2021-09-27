@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "Dyspo Media",
+  "homepage": "https://ali-kash.github.io/dyspo/",
   "scripts": {
     "start": "webpack-dev-server --devtool eval-source-map --disable-host-check --open",
     "build": "webpack -p",
